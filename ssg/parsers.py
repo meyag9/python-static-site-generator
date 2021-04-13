@@ -1,7 +1,7 @@
 import shutil
 
-from List import typing
-from Path import pathlib
+from typing import List
+from pathlib import Path
 
 class Parser:
     # Declare empty list or strings
