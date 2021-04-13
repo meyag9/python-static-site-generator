@@ -7,7 +7,7 @@ class Parser:
     # Declare empty list or strings
     extensions: List[str] = []
 
-    def valid_extensions(self, extension):
+    def valid_extension(self, extension):
         return extension in self.extensions
 
     # Annotate the variable types
